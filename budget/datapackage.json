@@ -28,6 +28,7 @@
                         "index": 0,
                         "type": "string",
                         "name": "Attività"
+                        "description":"lorem ipsum"
                     },
                     {
                         "index": 1,
