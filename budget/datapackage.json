@@ -1,0 +1,72 @@
+{
+    "name": "Budget progetto Open Pompei",
+    "description": "Questo dataset contiene il Budget del progetto Open Pompei. Due i file contenuti: uno con i dettagli delle voci di spesa, ed uno con i totali per attività.",
+    "licenses": [
+        {
+            "id": "CC BY 4.0",
+            "name": "CC BY 4.0",
+            "version": "4",
+            "url": "http://creativecommons.org/licenses/by/4.0/"
+        }
+    ],
+    "sources": [
+        {
+            "name": "Oper Pompei",
+            "web": "http://www.openpompei.it"
+        }
+    ],
+    "resources": [
+        {
+            "path": "totale.csv",
+            "format": "csv",
+            "encoding": "UTF-8",
+            "mediatype": "text/csv",
+            "name": "totale",
+            "schema": {
+                "fields": [
+                    {
+                        "index": 0,
+                        "type": "string",
+                        "name": "Attività"
+                    },
+                    {
+                        "index": 1,
+                        "type": "number",
+                        "name": "Valore"
+                    }
+                ]
+            }
+        },
+        {
+            "path": "dettaglio.csv",
+            "format": "csv",
+            "encoding": "UTF-8",
+            "mediatype": "text/csv",
+            "name": "dettaglio",
+            "schema": {
+                "fields": [
+                    {
+                        "index": 0,
+                        "type": "string",
+                        "name": "Area"
+                    },
+                    {
+                        "index": 1,
+                        "type": "string",
+                        "name": "Attività"
+                    },
+                    {
+                        "index": 2,
+                        "type": "string",
+                        "name": "Incaricato"
+                    },
+                    {
+                        "index": 3,
+                        "name": "Valore",
+                        "type": "number"
+                    }
+                ]
+            }
+        }
+    ]
+}
