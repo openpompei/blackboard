@@ -27,7 +27,7 @@
                     {
                         "index": 0,
                         "type": "string",
-                        "name": "Attività"
+                        "name": "Attività",
                         "description":"lorem ipsum"
                     },
                     {
