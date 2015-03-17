@@ -1,6 +1,6 @@
 {
     "name": "Budget progetto Open Pompei",
-    "description": "Questo dataset contiene il Budget del progetto Open Pompei. Due i file contenuti: uno con i totali per attività e uno con i dettagli delle voci di spesa.",
+    "description": "Questo dataset contiene il Budget del progetto Open Pompei. Due i file contenuti: uno con i totali per attività ("totale") e uno con i dettagli delle voci di spesa ("dettaglio").",
     "licenses": [
         {
             "id": "CC BY 4.0",
